@@ -1,0 +1,11 @@
+.card {
+  border: solid 2px #000000;
+  display: block;
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  }
+
+  button {
+    margin-right: 10px;
+  }
