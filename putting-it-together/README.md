@@ -5,7 +5,7 @@ It was submitted on April 10, 2023.
 
 ## Assignment description
 
-This is a React application that renders a list of `ProfileCard` components for each person object in the `people` array, which is defined on the parent `App` component. Each `ProfileCard` component displays the person's name, age, and hair color, and has buttons to increase or decrease the person's age. The `person.hairColor` property is passed to a new dynamic variable `actualHairColor` that mutates based on the piece of state `year`.
+This is a React application that renders a list of `ProfileCard` components for each `person` object in the `people` array, which is defined on the parent `App` component. Each `ProfileCard` component displays the person's name, age, and hair color, and has buttons to increase or decrease the person's age. The `person.hairColor` property is passed to a new dynamic variable `actualHairColor` that mutates based on the piece of state `year`-- in effect, their hair gets greyer with age eventually going white.
 
 ```let actualHairColor;
   if (year > 75) {
